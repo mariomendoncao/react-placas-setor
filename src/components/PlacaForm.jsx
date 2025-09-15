@@ -1,7 +1,14 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import capacidadeData from '../data/capacidade_setores.json'
 import './PlacaForm.css'
 
 const PlacaForm = ({ data, onChange }) => {
+  const [setores, setSetores] = useState([])
+  
+  useEffect(() => {
+    setSetores(capacidadeData.Tabela_Capacidade_ATC)
+  }, [])
+
   const handleInputChange = (field, value) => {
     onChange({
       ...data,
@@ -9,11 +16,47 @@ const PlacaForm = ({ data, onChange }) => {
     })
   }
 
+  const handleSetorChange = (setorCodigo) => {
+    const setorSelecionado = setores.find(setor => setor.Setor === setorCodigo)
+
+    if (setorSelecionado) {
+      onChange({
+        ...data,
+        codigoPlaca: setorCodigo,
+        regiao: `REGIÃO ${setorSelecionado.Regiao.toUpperCase()}`,
+        cor: setorSelecionado.Cor,
+        nrefSemAss: setorSelecionado.NRef.Sem_ASS === "Não previsto" ? "--" : setorSelecionado.NRef.Sem_ASS.toString(),
+        nrefComAss: setorSelecionado.NRef.Com_ASS === "Não previsto" ? "--" : setorSelecionado.NRef.Com_ASS.toString(),
+        npicoSemAss: setorSelecionado.NPico.Sem_ASS === "Não previsto" ? "--" : setorSelecionado.NPico.Sem_ASS.toString(),
+        npicoComAss: setorSelecionado.NPico.Com_ASS === "Não previsto" ? "--" : setorSelecionado.NPico.Com_ASS.toString(),
+        freq1: setorSelecionado.frequencias.primaria || "",
+        freq2: setorSelecionado.frequencias.secundaria || ""
+      })
+    }
+  }
+
   return (
     <div className="placa-form">
       <h2>Dados da Placa</h2>
       
       <div className="form-row">
+        <div className="form-group">
+          <label htmlFor="setorSelect">Selecionar Setor:</label>
+          <select
+            id="setorSelect"
+            value={data.codigoPlaca}
+            onChange={(e) => handleSetorChange(e.target.value)}
+            required
+          >
+            <option value="">Selecione um setor...</option>
+            {setores.map((setor) => (
+              <option key={setor.Setor} value={setor.Setor}>
+                {setor.Setor}
+              </option>
+            ))}
+          </select>
+        </div>
+        
         <div className="form-group">
           <label htmlFor="codigoPlaca">Código da Placa:</label>
           <input

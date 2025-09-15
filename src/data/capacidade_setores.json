@@ -1,0 +1,480 @@
+{
+    "Tabela_Capacidade_ATC": [
+        {
+            "Setor": "T1",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "NPico": {
+                "Sem_ASS": 8,
+                "Com_ASS": 10
+            },
+            "frequencias": {
+                "primaria": "134.9",
+                "secundaria": "129.0"
+            }
+        },
+        {
+            "Setor": "T2",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "119.6",
+                "secundaria": "122.75"
+            }
+        },
+        {
+            "Setor": "T3",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.75",
+                "secundaria": "125.925"
+            }
+        },
+        {
+            "Setor": "T4",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 6,
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": 7,
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "119.8",
+                "secundaria": "125.25"
+            }
+        },
+        {
+            "Setor": "T5",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "132.1",
+                "secundaria": "129.825"
+            }
+        },
+        {
+            "Setor": "T6",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": 7,
+                "Com_ASS": 9
+            },
+            "NPico": {
+                "Sem_ASS": 9,
+                "Com_ASS": 12
+            },
+            "frequencias": {
+                "primaria": "120.850",
+                "secundaria": "123.250"
+            }
+        },
+        {
+            "Setor": "T7",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": "Não previsto",
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": "Não previsto",
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "120.45",
+                "secundaria": "129.05"
+            }
+        },
+        {
+            "Setor": "T8",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "119.375",
+                "secundaria": "124.650"
+            }
+        },
+        {
+            "Setor": "T9",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": 6,
+                "Com_ASS": "Não previsto"
+            },
+            "NPico": {
+                "Sem_ASS": 8,
+                "Com_ASS": "Não previsto"
+            },
+            "frequencias": {
+                "primaria": "129.75",
+                "secundaria": "133.075"
+            }
+        },
+        {
+            "Setor": "T10",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": 6,
+                "Com_ASS": "Não previsto"
+            },
+            "NPico": {
+                "Sem_ASS": 8,
+                "Com_ASS": "Não previsto"
+            },
+            "frequencias": {
+                "primaria": "133.85",
+                "secundaria": "119.050"
+            }
+        },
+        {
+            "Setor": "T11",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 6,
+                "Com_ASS": "Não previsto"
+            },
+            "NPico": {
+                "Sem_ASS": 8,
+                "Com_ASS": "Não previsto"
+            },
+            "frequencias": {
+                "primaria": "119.25",
+                "secundaria": "121.900"
+            }
+        },
+        {
+            "Setor": "T12",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "124.15",
+                "secundaria": "134.15"
+            }
+        },
+        {
+            "Setor": "T13",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.85",
+                "secundaria": "125.050"
+            }
+        },
+        {
+            "Setor": "T14",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 8
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 11
+            },
+            "frequencias": {
+                "primaria": "129.50",
+                "secundaria": null
+            }
+        },
+        {
+            "Setor": "T04/T05",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "119.8",
+                "secundaria": "125.25"
+            }
+        },
+        {
+            "Setor": "T03/T13",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.75",
+                "secundaria": "125.925"
+            }
+        },
+        {
+            "Setor": "T03/T11",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.75",
+                "secundaria": "125.925"
+            }
+        },
+        {
+            "Setor": "T03/T11/T13",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.75",
+                "secundaria": "125.925"
+            }
+        },
+        {
+            "Setor": "T01/T02/T10",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": 4,
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": 5,
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "134.9",
+                "secundaria": "129.0"
+            }
+        },
+        {
+            "Setor": "T07/T08",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "120.45",
+                "secundaria": "129.05"
+            }
+        },
+        {
+            "Setor": "T12/T14",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "124.15",
+                "secundaria": "134.15"
+            }
+        },
+        {
+            "Setor": "T01/T02",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "134.9",
+                "secundaria": "129.0"
+            }
+        },
+        {
+            "Setor": "T06/T09",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": 6,
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": 8,
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "120.850",
+                "secundaria": "123.250"
+            }
+        },
+        {
+            "Setor": "T04/T05/T06",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "119.8",
+                "secundaria": "125.25"
+            }
+        },
+        {
+            "Setor": "T07/T08/T09",
+            "Regiao": "Leste",
+            "Cor": "vermelha",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "120.45",
+                "secundaria": "129.05"
+            }
+        },
+        {
+            "Setor": "T01/T02/T07/T08/T10",
+            "Regiao": "Sul",
+            "Cor": "azul",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 7
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 9
+            },
+            "frequencias": {
+                "primaria": "134.9",
+                "secundaria": "129.0"
+            }
+        },
+        {
+            "Setor": "T03/T04/T05/T06/T09/T11/T13",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": "--",
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": "--",
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.75",
+                "secundaria": "125.925"
+            }
+        },
+        {
+            "Setor": "T13/T04",
+            "Regiao": "Norte",
+            "Cor": "verde",
+            "NRef": {
+                "Sem_ASS": 5,
+                "Com_ASS": 6
+            },
+            "NPico": {
+                "Sem_ASS": 6,
+                "Com_ASS": 8
+            },
+            "frequencias": {
+                "primaria": "125.85",
+                "secundaria": "125.050"
+            }
+        }
+    ]
+}
